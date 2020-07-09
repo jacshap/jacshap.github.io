@@ -11,14 +11,14 @@ nav{
     align-items: center;
     min-height: 8vh;
     background-color: #99b3ff;
-    font-family: 'Oxygen';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .logo{
     color: white;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
+    /* text-transform: uppercase; */
+    letter-spacing: 6px;
+    font-size: 22.5px;
 }
 
 .nav-links{
@@ -52,6 +52,32 @@ nav{
     transition: all 0.3s ease;
 }
 
+img{
+    /* width: 300px; */
+    display: block;
+    width: 300px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    
+    width: 90%;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 @media screen and (max-width: 1024px){
     .nav-links{
         width: 60%;
@@ -80,6 +106,12 @@ nav{
     }
     .burger{
         display: block;
+    }
+    img{
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
