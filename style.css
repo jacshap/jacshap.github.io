@@ -90,7 +90,7 @@ p{
     }
 }
 
-@media screen and (max-width: 749px){
+@media screen and (max-width: 800px){
     body{
         overflow-x: hidden;
     }
